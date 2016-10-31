@@ -1,0 +1,38 @@
+body {
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#ext {
+  display: flex;
+  align-items: center;
+
+}
+
+#content {
+
+}
+
+#time {
+  font-size: 160px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#greeting {
+  font-size: 40px;
+  color:white;
+  font-weight: ;
+  letter-spacing: ;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+#quote {
+
+}

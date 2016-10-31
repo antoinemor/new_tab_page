@@ -2,7 +2,7 @@ require "open-uri"
 require "json"
 require "date"
 
-FLICKR_API_KEY = ""
+FLICKR_API_KEY = "8cf59e676f6aceed971e23853aa70d66"
 FLICKR_API_CALL = "https://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&api_key=#{FLICKR_API_KEY}&user_id=111110089@N08&format=json&extras=url_o&per_page=100"
 QUOTE_API_CALL = "http://quotes.rest/qod.json"
 
