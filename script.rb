@@ -31,10 +31,3 @@ when (0..4) then "Good night"
 end
 
 info[:greeting] = "#{greeting} Antoine! Have fun!"
-
-print info
-
-# Display time
-# Get a random Flickr image url
-# Get a random cool quote
-
