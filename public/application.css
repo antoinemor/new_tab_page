@@ -10,31 +10,29 @@ body {
   position: relative;
   top: 50%;
   transform: translateY(50%);
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px black;
 }
 
 #time {
   font-size: 160px;
-  color: white;
   font-weight: 400;
   letter-spacing: 4px;
   font-family: 'Oxygen', sans-serif;
-  text-shadow: 1px 1px black;
+  overflow: visible;
 }
 
 #greeting {
   font-size: 40px;
-  color:white;
   font-weight: ;
   letter-spacing: ;
   font-family: 'Oxygen', sans-serif;
-  text-shadow: 1px 1px black;
 }
 
 #quote {
   font-size: 20px;
-  color:white;
   font-weight: ;
   letter-spacing: ;
-  font-family: 'Oxygen', sans-serif;
-  text-shadow: 1px 1px black;
+  font-family: 'Open Sans', sans-serif;
 }
