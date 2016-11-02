@@ -45,7 +45,7 @@ get '/' do
   end
 
   # Time generation
-  @info[:time] = "#{Time.now.hour}:#{Time.now.min}"
+  @info[:time] = "#{Time.now.hour}:#{sprintf('%02d', Time.now.min)}"
 
   # Greetings generation
   greeting = case Time.now.hour
